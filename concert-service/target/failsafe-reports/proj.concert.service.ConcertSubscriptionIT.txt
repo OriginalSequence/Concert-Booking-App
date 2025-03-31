@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: proj.concert.service.ConcertSubscriptionIT
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.041 s <<< FAILURE! - in proj.concert.service.ConcertSubscriptionIT
+testSubscription(proj.concert.service.ConcertSubscriptionIT)  Time elapsed: 4.799 s  <<< FAILURE!
+java.lang.AssertionError: Future took too long to return - probable error.
+	at proj.concert.service.ConcertSubscriptionIT.testSubscription(ConcertSubscriptionIT.java:150)
+

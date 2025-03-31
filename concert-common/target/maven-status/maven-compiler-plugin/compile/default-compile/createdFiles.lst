@@ -1,0 +1,13 @@
+proj/concert/common/dto/BookingDTO.class
+proj/concert/common/dto/ConcertInfoSubscriptionDTO.class
+proj/concert/common/jackson/LocalDateTimeSerializer.class
+proj/concert/common/dto/UserDTO.class
+proj/concert/common/dto/ConcertInfoNotificationDTO.class
+proj/concert/common/dto/ConcertDTO.class
+proj/concert/common/types/BookingStatus.class
+proj/concert/common/jackson/LocalDateTimeDeserializer.class
+proj/concert/common/dto/ConcertSummaryDTO.class
+proj/concert/common/dto/SeatDTO.class
+proj/concert/common/dto/BookingRequestDTO.class
+proj/concert/common/types/Genre.class
+proj/concert/common/dto/PerformerDTO.class

@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: proj.concert.service.ConcertResourceIT
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 11.192 s <<< FAILURE! - in proj.concert.service.ConcertResourceIT
+testGetSingleConcert(proj.concert.service.ConcertResourceIT)  Time elapsed: 0.33 s  <<< ERROR!
+javax.ws.rs.InternalServerErrorException: HTTP 500 Internal Server Error
+	at proj.concert.service.ConcertResourceIT.testGetSingleConcert(ConcertResourceIT.java:66)
+
+testGetSingleConcertWithMultiplePerformersAndDates(proj.concert.service.ConcertResourceIT)  Time elapsed: 0.223 s  <<< ERROR!
+javax.ws.rs.InternalServerErrorException: HTTP 500 Internal Server Error
+	at proj.concert.service.ConcertResourceIT.testGetSingleConcertWithMultiplePerformersAndDates(ConcertResourceIT.java:90)
+
+testGetAllConcerts(proj.concert.service.ConcertResourceIT)  Time elapsed: 0.763 s  <<< ERROR!
+javax.ws.rs.InternalServerErrorException: HTTP 500 Internal Server Error
+	at proj.concert.service.ConcertResourceIT.testGetAllConcerts(ConcertResourceIT.java:125)
+
